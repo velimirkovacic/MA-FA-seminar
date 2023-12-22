@@ -1,0 +1,66 @@
+\documentclass[times, utf8, seminar]{fer}
+\usepackage{booktabs}
+\usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage{braket}
+\usepackage[inkscapeformat=png]{svg}
+\usepackage{subcaption}
+\usepackage[qm]{qcircuit}
+\usepackage{graphicx}
+\usepackage[noend]{algpseudocode}
+\usepackage{algorithm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{cellspace}
+\usepackage{graphicx}
+\usepackage{array, tabularx, caption, boldline}
+\usepackage{framed}
+
+\usepackage{courier}
+\usepackage{url}
+\usepackage[pdfa, hidelinks]{hyperref}
+
+\def\UrlBreaks{\do\/\do-}
+\setcitestyle{numbers,square,super}
+\hypersetup{
+	citecolor=black
+}
+
+\begin{document}
+	
+	% TODO: Navedite naslov rada.
+	\title{Algoritam majmuna i algoritam krijesnica}
+	
+	% TODO: Navedite svoje ime i prezime.
+	\author{Velimir Kovačić}
+	
+	% TODO: Navedite ime i prezime mentora.
+	\voditelj{Marin Golub}
+	
+	\maketitle
+	
+	\tableofcontents
+	
+	\chapter{Uvod}
+	\input{uvod}
+
+	\chapter{Algoritam majmuna}
+	\input{majmun}
+	
+	\chapter{Algoritam krijesnica}
+	\input{krijesnice}
+	
+	\chapter{Zaključak}
+	\input{zakljucak}
+	
+	\bibliography{literatura}
+	\bibliographystyle{fer}
+	\nocite{*}
+	
+	\chapter{Sažetak}
+	Algoritam majmuna i algoritam krijesnica metaheuristički su optimizacijski algoritmi rojeva. U ovom radu dan je pregled samih algoritama, načini na koje se mogu izvesti na računalu i njihove primjene.
+	
+\end{document}
